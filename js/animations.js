@@ -26,11 +26,16 @@
       const progressBar = document.getElementById("preloader-progress-bar");
       if (!preloader) return;
 
+      let dismissed = false;
       const dismiss = () => {
-        if (preloader.style.display !== "none") {
+        if (!dismissed) {
+          dismissed = true;
+          preloader.style.pointerEvents = "none";
           preloader.style.opacity = "0";
           preloader.style.transition = "opacity 0.3s ease";
           setTimeout(() => {
+            preloader.classList.add("hidden");
+            preloader.classList.remove("flex");
             preloader.style.display = "none";
             window.SYNC_ANIMATIONS.animateHeroEntrance();
           }, 300);
@@ -39,6 +44,10 @@
 
       // Autostart or quick dismiss on click
       if (window.location.search.includes("autostart=1")) {
+        dismissed = true;
+        preloader.style.pointerEvents = "none";
+        preloader.classList.add("hidden");
+        preloader.classList.remove("flex");
         preloader.style.display = "none";
         window.SYNC_ANIMATIONS.animateHeroEntrance();
         return;
@@ -231,24 +240,27 @@
 
         // Section Headers Reveal
         gsap.utils.toArray(".reveal-on-scroll").forEach(el => {
-          gsap.from(el, {
-            scrollTrigger: {
-              trigger: el,
-              start: "top 85%",
-              toggleActions: "play none none none"
-            },
-            y: 40,
-            opacity: 0,
-            duration: 0.8,
-            ease: "power3.out"
-          });
+          gsap.fromTo(
+            el,
+            { y: 24, opacity: 0.85 },
+            {
+              scrollTrigger: {
+                trigger: el,
+                start: "top 92%",
+                toggleActions: "play none none none"
+              },
+              y: 0,
+              opacity: 1,
+              duration: 0.6,
+              ease: "power3.out",
+              clearProps: "transform,opacity"
+            }
+          );
         });
 
-        // Competition Cards Stagger Reveal
-        ScrollTrigger.batch(".comp-card-wrap", {
-          onEnter: batch => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.12, duration: 0.8, ease: "power3.out" }),
-          start: "top 90%"
-        });
+        setTimeout(() => {
+          ScrollTrigger.refresh();
+        }, 200);
       }
     },
 

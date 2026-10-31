@@ -425,6 +425,14 @@
       }).join("");
 
       // Bind events
+      container.querySelectorAll(".comp-card-wrap").forEach(cardWrap => {
+        cardWrap.addEventListener("click", function (e) {
+          if (e.target.closest("a, button")) return;
+          const compId = this.getAttribute("data-comp-id");
+          window.SYNC_COMPETITIONS.openModal(compId);
+        });
+      });
+
       container.querySelectorAll(".btn-view-details").forEach(btn => {
         btn.addEventListener("click", function (e) {
           e.stopPropagation();

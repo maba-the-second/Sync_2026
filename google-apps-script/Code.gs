@@ -145,7 +145,7 @@ function handleRegistration(payload) {
       "Team Members",
       "Status"
     ]);
-    sheet.getRange(1, 1, 1, 12).setFontWeight("bold").setBackground("#0A1710").setFontColor("#B7FF35");
+    sheet.getRange(1, 1, 1, 12).setFontWeight("bold").setBackground("#07100B").setFontColor("#5CE3D2");
   }
 
   var timestamp = new Date();

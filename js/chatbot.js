@@ -158,8 +158,8 @@
       bubble.innerHTML = `
         <div class="max-w-[85%] rounded-2xl p-3 text-xs leading-relaxed ${
           isBot 
-            ? 'bg-forest/90 border border-neon/30 text-gray-200 shadow-[0_0_15px_rgba(183,255,55,0.08)]' 
-            : 'bg-neon text-black font-semibold shadow-[0_0_15px_rgba(183,255,55,0.3)]'
+            ? 'bg-forest/90 border border-neon/30 text-gray-200 shadow-[0_0_15px_rgba(92,227,210,0.08)]' 
+            : 'bg-neon text-black font-semibold shadow-[0_0_15px_rgba(92,227,210,0.3)]'
         }">
           ${formatted}
         </div>

@@ -383,8 +383,8 @@
 
               <!-- Card Logo & Title Area -->
               <div class="relative z-10 flex items-center gap-4 mb-4">
-                <div class="w-16 h-16 md:w-20 md:h-20 flex-shrink-0 rounded-xl bg-forest/90 border border-neon/30 p-2 flex items-center justify-center overflow-hidden shadow-[0_0_20px_rgba(183,255,55,0.15)] group-hover:shadow-[0_0_30px_rgba(183,255,55,0.35)] transition-shadow">
-                  <img src="${logoSrc}" alt="${comp.name} logo" class="w-full h-full object-contain filter drop-shadow-[0_0_8px_rgba(183,255,55,0.4)] transform group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+                <div class="w-16 h-16 md:w-20 md:h-20 flex-shrink-0 rounded-xl bg-forest/90 border border-neon/30 p-2 flex items-center justify-center overflow-hidden shadow-[0_0_20px_rgba(92,227,210,0.15)] group-hover:shadow-[0_0_30px_rgba(92,227,210,0.35)] transition-shadow">
+                  <img src="${logoSrc}" alt="${comp.name} logo" class="w-full h-full object-contain filter drop-shadow-[0_0_8px_rgba(92,227,210,0.4)] transform group-hover:scale-105 transition-transform duration-300" loading="lazy" />
                 </div>
                 <div>
                   <h3 class="font-orbitron font-bold text-xl md:text-2xl text-white tracking-wide group-hover:text-neon transition-colors">
@@ -414,7 +414,7 @@
                       <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0012.04 2z"/>
                     </svg>
                   </a>
-                  <button type="button" class="btn-register-comp text-xs font-orbitron font-bold uppercase tracking-wider px-4 py-2 rounded-lg text-black bg-neon hover:bg-lime shadow-[0_0_15px_rgba(183,255,55,0.4)] hover:shadow-[0_0_25px_rgba(183,255,55,0.7)] transition-all flex items-center gap-1.5" data-comp-id="${comp.id}">
+                  <button type="button" class="btn-register-comp text-xs font-orbitron font-bold uppercase tracking-wider px-4 py-2 rounded-lg text-black bg-neon hover:bg-lime shadow-[0_0_15px_rgba(92,227,210,0.4)] hover:shadow-[0_0_25px_rgba(92,227,210,0.7)] transition-all flex items-center gap-1.5" data-comp-id="${comp.id}">
                     <span>Register</span>
                   </button>
                 </div>

@@ -91,7 +91,7 @@
         if (podiumArea) podiumArea.innerHTML = "";
         container.innerHTML = `
           <div class="glass-panel p-8 md:p-12 rounded-2xl border border-neon/20 text-center max-w-2xl mx-auto my-6">
-            <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-forest flex items-center justify-center border border-neon/30 text-neon shadow-[0_0_20px_rgba(183,255,55,0.2)]">
+            <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-forest flex items-center justify-center border border-neon/30 text-neon shadow-[0_0_20px_rgba(92,227,210,0.2)]">
               <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/>
                 <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/>
@@ -145,10 +145,10 @@
               </div>
 
               <!-- #1 Gold Center -->
-              <div class="glass-panel p-6 md:p-8 rounded-2xl border-2 border-neon text-center relative -translate-y-4 shadow-[0_0_30px_rgba(183,255,55,0.25)] transform hover:scale-105 transition-transform">
+              <div class="glass-panel p-6 md:p-8 rounded-2xl border-2 border-neon text-center relative -translate-y-4 shadow-[0_0_30px_rgba(92,227,210,0.25)] transform hover:scale-105 transition-transform">
                 <div class="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-0.5 rounded-full bg-neon text-black font-orbitron font-black text-[10px] tracking-wider uppercase">CHAMPION</div>
                 <div class="text-xs font-mono text-neon uppercase tracking-widest mb-1">Rank #1</div>
-                <div class="w-12 h-12 mx-auto rounded-full bg-neon/20 border-2 border-neon text-neon font-orbitron font-black text-xl flex items-center justify-center mb-2 shadow-[0_0_15px_rgba(183,255,55,0.5)]">1</div>
+                <div class="w-12 h-12 mx-auto rounded-full bg-neon/20 border-2 border-neon text-neon font-orbitron font-black text-xl flex items-center justify-center mb-2 shadow-[0_0_15px_rgba(92,227,210,0.5)]">1</div>
                 <h4 class="font-orbitron font-bold text-base md:text-lg text-white truncate">${top3[0].name}</h4>
                 <p class="text-xs font-mono text-gray-300 truncate">${top3[0].school}</p>
                 <div class="mt-2 text-sm font-mono text-lime font-black">${top3[0].score} PTS</div>

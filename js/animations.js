@@ -160,10 +160,10 @@
         positions[i + 1] = (Math.random() - 0.5) * 40;
         positions[i + 2] = (Math.random() - 0.5) * 40;
 
-        // Neon Green / Cyan / Ice Palette
-        colors[i] = 0.72; // R
-        colors[i + 1] = 1.0; // G
-        colors[i + 2] = 0.21; // B
+        // Turquoise / Deep Ocean / Azure Mist Palette
+        colors[i] = 0.36; // R (#5CE3D2)
+        colors[i + 1] = 0.89; // G
+        colors[i + 2] = 0.82; // B
       }
 
       geometry.setAttribute("position", new THREE.BufferAttribute(positions, 3));
@@ -182,7 +182,7 @@
       // Cyber Torus Knot (Futuristic Digital Artifact)
       const torusGeo = new THREE.TorusKnotGeometry(6, 1.8, 64, 16);
       const torusMat = new THREE.MeshBasicMaterial({
-        color: 0xB7FF35,
+        color: 0x5CE3D2,
         wireframe: true,
         transparent: true,
         opacity: 0.18

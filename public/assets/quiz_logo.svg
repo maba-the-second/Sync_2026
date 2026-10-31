@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
   <defs>
     <linearGradient id="qg1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#D1FF6A" />
-      <stop offset="50%" stop-color="#B7FF35" />
-      <stop offset="100%" stop-color="#0A1710" />
+      <stop offset="0%" stop-color="#29CEAF" />
+      <stop offset="50%" stop-color="#5CE3D2" />
+      <stop offset="100%" stop-color="#0B7772" />
     </linearGradient>
     <filter id="qglow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="6" result="blur" />
@@ -11,28 +11,28 @@
     </filter>
   </defs>
   <!-- Outer Tech Hexagon -->
-  <polygon points="200,30 350,115 350,285 200,370 50,285 50,115" stroke="#B7FF35" stroke-width="3" fill="#071109" fill-opacity="0.85" filter="url(#qglow)" />
-  <polygon points="200,50 330,125 330,275 200,350 70,275 70,125" stroke="#B7FF35" stroke-width="1" stroke-dasharray="8 6" stroke-opacity="0.6" fill="none" />
+  <polygon points="200,30 350,115 350,285 200,370 50,285 50,115" stroke="#5CE3D2" stroke-width="3" fill="#07100B" fill-opacity="0.85" filter="url(#qglow)" />
+  <polygon points="200,50 330,125 330,275 200,350 70,275 70,125" stroke="#5CE3D2" stroke-width="1" stroke-dasharray="8 6" stroke-opacity="0.6" fill="none" />
   
   <!-- Neural / Brain Tech Circuit -->
-  <path d="M140,160 Q170,120 200,160 T260,160" stroke="#D1FF6A" stroke-width="3" fill="none" />
-  <path d="M130,200 Q160,170 200,200 T270,200" stroke="#B7FF35" stroke-width="4" fill="none" />
-  <path d="M145,240 Q180,260 200,225 T255,240" stroke="#D1FF6A" stroke-width="3" fill="none" />
+  <path d="M140,160 Q170,120 200,160 T260,160" stroke="#29CEAF" stroke-width="3" fill="none" />
+  <path d="M130,200 Q160,170 200,200 T270,200" stroke="#5CE3D2" stroke-width="4" fill="none" />
+  <path d="M145,240 Q180,260 200,225 T255,240" stroke="#29CEAF" stroke-width="3" fill="none" />
 
   <!-- Center Core Pulsing Nodes -->
-  <circle cx="200" cy="180" r="14" fill="#B7FF35" filter="url(#qglow)" />
-  <circle cx="160" cy="170" r="7" fill="#E6FFC2" />
-  <circle cx="240" cy="170" r="7" fill="#E6FFC2" />
-  <circle cx="150" cy="220" r="6" fill="#B7FF35" />
-  <circle cx="250" cy="220" r="6" fill="#B7FF35" />
+  <circle cx="200" cy="180" r="14" fill="#5CE3D2" filter="url(#qglow)" />
+  <circle cx="160" cy="170" r="7" fill="#E1F3F7" />
+  <circle cx="240" cy="170" r="7" fill="#E1F3F7" />
+  <circle cx="150" cy="220" r="6" fill="#5CE3D2" />
+  <circle cx="250" cy="220" r="6" fill="#5CE3D2" />
 
   <!-- Circuit traces -->
-  <line x1="200" y1="50" x2="200" y2="120" stroke="#B7FF35" stroke-width="2" />
-  <line x1="200" y1="240" x2="200" y2="350" stroke="#B7FF35" stroke-width="2" />
-  <line x1="70" y1="200" x2="130" y2="200" stroke="#B7FF35" stroke-width="2" />
-  <line x1="270" y1="200" x2="330" y2="200" stroke="#B7FF35" stroke-width="2" />
+  <line x1="200" y1="50" x2="200" y2="120" stroke="#5CE3D2" stroke-width="2" />
+  <line x1="200" y1="240" x2="200" y2="350" stroke="#5CE3D2" stroke-width="2" />
+  <line x1="70" y1="200" x2="130" y2="200" stroke="#5CE3D2" stroke-width="2" />
+  <line x1="270" y1="200" x2="330" y2="200" stroke="#5CE3D2" stroke-width="2" />
 
   <!-- Text / Badge -->
-  <text x="200" y="305" font-family="'Orbitron', sans-serif" font-weight="900" font-size="24" fill="#FFFFFF" text-anchor="middle" letter-spacing="4">INTER-SCHOOL</text>
-  <text x="200" y="335" font-family="'Orbitron', sans-serif" font-weight="900" font-size="28" fill="#B7FF35" text-anchor="middle" letter-spacing="6">QUIZ ’26</text>
+  <text x="200" y="305" font-family="'Orbitron', sans-serif" font-weight="900" font-size="24" fill="#E1F3F7" text-anchor="middle" letter-spacing="4">INTER-SCHOOL</text>
+  <text x="200" y="335" font-family="'Orbitron', sans-serif" font-weight="900" font-size="28" fill="#5CE3D2" text-anchor="middle" letter-spacing="6">QUIZ ’26</text>
 </svg>

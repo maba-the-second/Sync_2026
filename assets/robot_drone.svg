@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" fill="none">
+  <defs>
+    <filter id="botglow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <radialGradient id="eyegrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E6FFC2" />
+      <stop offset="60%" stop-color="#B7FF35" />
+      <stop offset="100%" stop-color="#0A1710" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Outer Anti-Grav Halo -->
+  <circle cx="150" cy="150" r="130" stroke="#B7FF35" stroke-width="1.5" stroke-dasharray="10 8" stroke-opacity="0.4" />
+  <circle cx="150" cy="150" r="115" stroke="#B7FF35" stroke-width="0.75" stroke-opacity="0.2" />
+
+  <!-- Robotic Main Chassis / Head -->
+  <polygon points="150,50 230,95 230,195 150,245 70,195 70,95" fill="#0A1710" stroke="#B7FF35" stroke-width="2.5" />
+  
+  <!-- Inner Facet Plates -->
+  <polygon points="150,70 210,105 210,185 150,225 90,185 90,105" fill="#071109" stroke="#B7FF35" stroke-width="1" stroke-opacity="0.6" />
+  
+  <!-- Center Holographic Visor -->
+  <polygon points="150,110 190,135 190,165 150,185 110,165 110,135" fill="#030604" stroke="#D1FF6A" stroke-width="1.5" />
+  
+  <!-- Glowing Cybernetic Eye / Core -->
+  <circle cx="150" cy="150" r="22" fill="url(#eyegrad)" filter="url(#botglow)" />
+  <circle cx="150" cy="150" r="10" fill="#030604" />
+  <circle cx="150" cy="150" r="4" fill="#FFFFFF" />
+
+  <!-- Antennas & Sensor Arrays -->
+  <line x1="150" y1="50" x2="150" y2="25" stroke="#B7FF35" stroke-width="2" />
+  <circle cx="150" cy="20" r="4" fill="#B7FF35" filter="url(#botglow)" />
+
+  <line x1="70" y1="130" x2="40" y2="120" stroke="#B7FF35" stroke-width="2" />
+  <circle cx="36" cy="118" r="3" fill="#D1FF6A" />
+
+  <line x1="230" y1="130" x2="260" y2="120" stroke="#B7FF35" stroke-width="2" />
+  <circle cx="264" cy="118" r="3" fill="#D1FF6A" />
+
+  <!-- Floating Anti-Grav Thruster Pods -->
+  <polygon points="150,245 130,280 170,280" fill="#B7FF35" fill-opacity="0.3" filter="url(#botglow)" />
+  <line x1="150" y1="245" x2="150" y2="285" stroke="#E6FFC2" stroke-width="3" filter="url(#botglow)" />
+</svg>

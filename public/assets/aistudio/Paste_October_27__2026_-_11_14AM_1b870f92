@@ -1,0 +1,1641 @@
+# MASTER PROMPT — SYNC ’26 / BTUI’26 FUTURISTIC COMPETITION WEBSITE
+
+You are an elite creative frontend engineer, award-winning UI/UX designer, 3D web developer, motion designer, AI integration engineer, and backend architect.
+
+Build a complete, production-quality, highly immersive competition website for the Dharmaraja College ICT Society's ICT event.
+
+This must be a genuinely functional website, NOT a static mockup, NOT a landing-page-only design, and NOT a generic AI-generated template.
+
+The website should feel like entering a futuristic digital universe inspired by premium cinematic gaming websites, advanced interactive portfolios, ReactBits-style motion design, dark glassmorphism, cybernetic environments, and the uploaded Arcane-inspired reference screenshot.
+
+The goal is to create an unforgettable, professional, award-level website that makes visitors feel they have entered a futuristic technology dimension.
+
+## 1. NON-NEGOTIABLE TECHNOLOGY REQUIREMENTS
+
+Use:
+
+- HTML5
+- Modern CSS3
+- Vanilla JavaScript (ES6+)
+- Three.js for genuine 3D experiences where appropriate
+- GSAP and ScrollTrigger for cinematic animations
+- Lenis or an equivalent lightweight library for smooth scrolling, if useful
+- Google Apps Script as the server-side integration for Google Sheets and securely handled AI requests
+
+Use CDN libraries where needed. Do not require React, Next.js, TypeScript, Vite, npm, or a complicated build process.
+
+IMPORTANT: ReactBits is React-based. Recreate its high-quality animation concepts and interactive design language using native HTML, CSS, JavaScript, GSAP, and Three.js instead of importing React-only components.
+
+The complete frontend must run by opening index.html through a suitable local server and must be compatible with static hosting platforms such as Netlify, Vercel, and GitHub Pages.
+
+Generate the complete project with separate, organized source files.
+
+Required project structure:
+
+- index.html
+- css/style.css
+- js/main.js
+- js/animations.js
+- js/competitions.js
+- js/registration.js
+- js/chatbot.js
+- js/leaderboard.js
+- js/config.js
+- assets/
+- google-apps-script/Code.gs
+- README.md
+
+Additional files are allowed when they genuinely improve maintainability.
+
+Do not put the entire website into one enormous HTML file.
+
+Do not return only a design explanation or a partial code sample. Implement the website and its functionality.
+
+## 2. ASSET SOURCE — GOOGLE DRIVE
+
+Official asset folder:
+
+https://drive.google.com/drive/folders/1GsXvmxpwg5PcodFN5-M2IzFwA2695h5Z?usp=sharing
+
+Before designing the final interface, inspect the available assets and map every relevant file to its proper section.
+
+Look specifically for:
+
+- `logo.png` — official event logo.
+- `quiz logo` — logo for the Inter-School Quiz competition.
+- `gaming logo` — logo for the ASPECT gaming competition.
+- `up logo` — logo or graphic intended for the upper-right area.
+- The leaderboard image or photograph.
+- Futuristic character artwork, robot images, spider/sculpture images, and supporting graphics.
+- Background music and any appropriate sound effects.
+- Other useful image assets contained in the folder.
+
+Use the original event logo without changing its shape, proportions, spelling, or colors. Preserve each supplied competition logo.
+
+Use original supplied photography and graphics wherever appropriate. Do not replace official logos with generated text or generic icons.
+
+If the Google Drive folder cannot be accessed directly, do not pretend to have inspected it. Build the site with clearly documented asset paths and a central asset configuration so the original files can be dropped into the `assets/` directory.
+
+Do not use broken image URLs or invent Google Drive file IDs. If an asset cannot be located, provide a graceful fallback.
+
+Use the uploaded Arcane-style screenshot strictly as a visual reference for composition, cinematic depth, neon lighting, typography, and presentation. Do not reproduce copyrighted Arcane characters, Riot Games artwork, or their logos.
+
+The finished product must have its own original identity for SYNC ’26 / BTUI’26.
+
+## 3. BRAND IDENTITY AND COLOR SYSTEM
+
+Create a premium futuristic visual identity.
+
+Main color palette:
+
+- Deep cinematic black: `#030604`
+- Dark forest green: `#071109`
+- Almost-black green: `#0A1710`
+- Neon ice green: `#B7FF35`
+- Electric lime: `#D1FF6A`
+- Pale ice green: `#E6FFC2`
+- White: `#F5F8F2`
+- Muted grey: `#929A90`
+
+The interface must predominantly use black, dark green, neon ice green, and glass transparency.
+
+Do NOT turn the website blue.
+
+Do NOT create a basic Bootstrap-style design.
+
+Do NOT use ordinary rectangular white cards.
+
+Use:
+
+- Advanced translucent glass panels.
+- Layered green light reflections.
+- Neon edge lighting.
+- Thin illuminated borders.
+- Animated light rings.
+- Frosted glass surfaces.
+- Subtle scanlines and digital noise.
+- Deep shadows and cinematic fog.
+- Green volumetric light beams.
+- Glowing particles.
+- Perspective grids.
+- Sophisticated typography.
+- Polygonal card corners and custom silhouettes.
+- Three-dimensional visual layers.
+- Carefully controlled green highlights.
+
+Use a futuristic display font such as Orbitron or a similar angular typeface for selected headings, paired with Space Grotesk or a comparable readable sans-serif for body content.
+
+Use fonts appropriately. Long competition rules must remain readable.
+
+The interface should look luxurious, cinematic, technically sophisticated, and purpose-built for a prestigious school technology event.
+
+## 4. GLOBAL EXPERIENCE — THE ENTIRE WEBSITE MUST FEEL ALIVE
+
+Animations are essential across every page.
+
+Implement a coordinated animation system instead of adding random animations independently.
+
+Create smooth transitions between sections, animated navigation, staggered card entrances, background movement, interactive light reflections, cinematic reveals, and responsive hover effects.
+
+The entire website should have motion, but information must remain readable and controls must remain usable.
+
+Required motion features:
+
+1. Animated page loading.
+2. Cinematic opening sequence.
+3. Animated event logo.
+4. Moving background particles.
+5. Subtle 3D depth and parallax.
+6. Moving green light beams.
+7. Animated robots and character artwork.
+8. Three-dimensional spider/sculpture movement where assets permit.
+9. Magnetic-style button interactions.
+10. Neon button edge rings.
+11. Animated competition cards.
+12. Scroll-triggered section transitions.
+13. Animated counters where real values exist.
+14. Animated glass-panel reflections.
+15. Interactive background elements that respond subtly to the mouse.
+16. Competition detail transitions.
+17. Registration modal animations.
+18. AI chatbot animations.
+19. Leaderboard reveal animations.
+20. Smooth tab and navigation transitions.
+
+Use GSAP and ScrollTrigger for coordinated sequences. Use Three.js for the genuine 3D scene if the supplied assets and performance budget allow it.
+
+If no suitable 3D model exists for the robot or sculpture, create an original procedural 3D object or a convincing layered CSS/SVG alternative. Do not claim a flat image is a genuine 3D model.
+
+Implement reduced-motion support and a lower-performance fallback for mobile devices.
+
+## 5. CINEMATIC PRELOADER AND INTRODUCTION
+
+When a visitor opens the website, show a sophisticated loading experience.
+
+The sequence should include:
+
+- A nearly black screen.
+- Fine green digital particles.
+- A futuristic scanning beam.
+- A robot's eyes or a mechanical visual gradually illuminating.
+- The official event logo emerging from darkness.
+- A circular, futuristic loading indicator.
+- A progress indicator based on actual asset-loading progress where feasible.
+- Brief animated event typography.
+- A smooth cinematic transition into the home page.
+
+Suggested introductory lines:
+
+“THE FUTURE IS NOT WAITING.”
+
+“REDEFINE WHAT'S POSSIBLE.”
+
+“WELCOME TO SYNC ’26.”
+
+Use the official event identity and its supplied logo.
+
+Avoid unnecessarily long loading delays. If some external asset cannot load, allow visitors to enter the website anyway.
+
+Do not fake a 100% loading state while the page remains unusable.
+
+## 6. HERO SECTION — FOLLOW THE UPLOADED REFERENCE'S CINEMATIC COMPOSITION
+
+Create a powerful, full-screen home page inspired by the uploaded reference screenshot.
+
+Use a central composition with large futuristic typography on the left and layered cinematic character artwork on the right.
+
+The hero should visually resemble a premium gaming title introduction, reinterpreted for an ICT competition.
+
+Include:
+
+- Official event logo.
+- Main SYNC ’26 / BTUI’26 event branding, following the supplied official assets.
+- A large futuristic headline.
+- Supporting event description.
+- Green illuminated typography.
+- Animated spider/sculpture or cybernetic artwork from the supplied assets.
+- A futuristic robot positioned toward a side of the composition.
+- Layered foreground and background elements.
+- A subtle perspective grid.
+- Particles and animated light beams.
+- Small technical labels and decorative coordinates.
+- An animated scroll indicator.
+
+Possible headline:
+
+“BEYOND THE
+DIGITAL FRONTIER.”
+
+Supporting text:
+
+“Think Beyond. Design Beyond. Compete Beyond.”
+
+Supporting description:
+
+“A futuristic ICT competition experience bringing together innovation, creativity, coding, digital design, and technological thinking.”
+
+Primary button: `EXPLORE COMPETITIONS`
+
+Secondary button: `REGISTER NOW`
+
+The buttons must work.
+
+The Explore Competitions button should smoothly navigate to the competitions section.
+
+The Register Now button should open a competition selection interface or the appropriate registration flow.
+
+On desktop, create an impressive wide cinematic composition. On mobile, redesign the composition intelligently instead of merely shrinking the desktop layout.
+
+## 7. ADVANCED ROBOT AND SPIDER/SCULPTURE INTERACTIONS
+
+The robot and sculpture are essential visual elements.
+
+Do not simply place static images on the website.
+
+Create appropriate animations such as:
+
+- Slow idle movement.
+- Gentle body or head rotation.
+- Mechanical component motion when an actual 3D model supports it.
+- Eye illumination.
+- Green energy pulses.
+- Floating or suspended movement.
+- Subtle depth shifts in response to cursor movement.
+- Particle trails.
+- Light scanning across the body.
+- Cinematic entrance and exit transitions.
+
+If the supplied spider/sculpture image is a 2D image, use layered depth, masking, lighting overlays, and parallax to create the impression of depth.
+
+When a visitor navigates from HOME to COMPETITION, create a cinematic transition: the foreground sculpture shifts or rotates, green light travels across the screen, and the competition section emerges from behind the visual elements.
+
+Do not block navigation with a long animation.
+
+When a competition card opens, use an appropriate visual transition rather than instantly replacing the content with a plain page.
+
+## 8. NAVIGATION BAR
+
+Create an elegant, floating glass navigation bar.
+
+Required navigation:
+
+`HOME | COMPETITION | ABOUT | CONTACT | LEADERBOARD`
+
+Place the appropriate official brand artwork in the upper-right area, using the supplied `up logo` asset where suitable.
+
+If `logo.png` is the primary event logo and `up logo` is a different graphic, use them in their intended roles rather than replacing one with the other.
+
+Navigation requirements:
+
+- Fixed or sticky positioning.
+- Transparent glass surface.
+- Animated neon-green active indicator.
+- Smooth navigation between sections.
+- Animated hover states.
+- Mobile navigation menu.
+- Proper keyboard accessibility.
+- Active section tracking while scrolling.
+- No overlapping navigation content on mobile.
+
+All five navigation links must work.
+
+## 9. HOME PAGE CONTENT
+
+Below the hero, introduce the event through several cinematic sections.
+
+### Section A — Digital Frontier
+
+Explain the event's mission of celebrating technology, creativity, problem-solving, and innovation.
+
+Use large typography and animated visual elements.
+
+### Section B — Explore the Competitions
+
+Display the competitions in an engaging interactive grid.
+
+Each competition must have an original glass panel with its own appropriate identity and supporting image or logo.
+
+### Section C — The Competition Experience
+
+Show the progression from registration to participation and the announcement of results.
+
+Use a visually sophisticated animated timeline. Do not invent official dates, schedules, prizes, or event details that have not been provided.
+
+### Section D — Why Participate?
+
+Use short statements about creative thinking, technical skills, collaboration where permitted, and practical innovation.
+
+Do not invent participant statistics, institutional claims, or awards.
+
+### Section E — Final Call to Action
+
+Headline: “YOUR NEXT BREAKTHROUGH STARTS HERE.”
+
+Button: `EXPLORE ALL COMPETITIONS`
+
+Secondary button: `CONTACT THE TEAM`
+
+The entire page must maintain the same visual identity.
+
+## 10. COMPETITION SECTION — SEVEN MAIN CATEGORIES PLUS ASPECT
+
+Create separate, individually designed competition cards for:
+
+1. Algorithm
+2. Web Development
+3. Photo Manipulation
+4. Poster Design
+5. Logo Design
+6. UI/UX Design
+7. Inter-School Quiz
+8. ASPECT — Gaming Competition
+
+The first seven cards must contain their respective competition descriptions and supplied logos or suitable original imagery.
+
+Use the `quiz logo` for the Inter-School Quiz card.
+
+Use the `gaming logo` for the ASPECT gaming card.
+
+The gaming competition is associated with Call of Duty 3. Display this accurately without inventing rules or schedules that have not been supplied.
+
+Each competition card must contain:
+
+- Original competition logo or artwork.
+- Competition name.
+- A short description.
+- Appropriate decorative glass geometry.
+- Animated border lighting.
+- A subtle 3D hover interaction.
+- `VIEW DETAILS`
+- `REGISTER NOW`
+- `CONTACT`
+
+The entire card may respond to pointer movement, but interactive buttons must work independently.
+
+Use slightly different visual treatments for coding, web development, design, quiz, and gaming while retaining the shared green-ice brand.
+
+Make the cards resemble futuristic holographic panels or fragments of a digital interface, not ordinary website cards.
+
+### Competition card interactions
+
+Hover:
+- Slight perspective rotation.
+- Green edge glow.
+- Background image depth effect.
+- Animated scanning highlight.
+- Minimal particle response.
+
+Click View Details:
+- Open a detailed competition page or a well-designed full-screen modal.
+- Animate the selected card into the detailed view.
+- Display the supplied rules and full competition information.
+- Include the registration button.
+- Include the contact button.
+- Provide a clear close or back control.
+
+Click Register Now:
+- Open the registration form for that specific competition.
+- Carry the correct competition name into the form automatically.
+
+All competition content must remain readable and accessible.
+
+## 11. COMPETITION 1 — ALGORITHM
+
+Competition description:
+
+“Challenge your programming logic, analytical thinking, and problem-solving ability through a competitive online algorithmic programming experience.”
+
+### Participation
+
+Open to students from Grade 6–13 of Dharmaraja College and other schools.
+
+Individual participation only. Team entries are not permitted.
+
+Registration for the competition must be completed before the announced deadline.
+
+All solutions must be the participant's own work. Code plagiarism, sharing solutions, or copying another participant's work will result in immediate disqualification.
+
+### Competition Format
+
+Hosted online through the HackerRank platform.
+
+Five algorithmic problems will be released simultaneously.
+
+Each problem carries 100 points, for a total of 500 points.
+
+Participants will have four hours to solve as many problems as possible.
+
+Submissions are accepted in C++, Python, Java, or JavaScript.
+
+Multiple attempts may be submitted for each problem.
+
+This is a single-round competition.
+
+Final date, time, HackerRank link, and other details will be communicated through the official BTUI'26 channels and WhatsApp group.
+
+### Scoring & Ranking
+
+Partial scoring will be available based on successfully passed test cases/subtasks.
+
+For multiple attempts, only the highest-scoring submission for that problem will count.
+
+There is no penalty for incorrect submissions.
+
+The total score across all 5 problems will decide the rankings of each contestant.
+
+In the event of a tie, the participant who achieved their final total score earliest will rank higher.
+
+The decisions of the judging panel will be final.
+
+### Submission
+
+All solutions must be submitted directly through HackerRank before the competition closes.
+
+No separate submission through the SYNC '26 website is required.
+
+## 12. COMPETITION 2 — WEB DEVELOPMENT
+
+Competition description:
+
+“Design and develop an innovative digital platform that solves a practical problem through functionality, creativity, and excellent user experience.”
+
+### Participation
+
+Students from Grade 6–13 of Dharmaraja College and other schools are eligible to participate.
+
+Individual participation only—team entries are not accepted.
+
+Registration for the competition must be completed by the specified deadline.
+
+All submissions must represent original work. Copying existing solutions or plagiarizing content will result in disqualification.
+
+### Statement
+
+With dozens of events happening across the year—debates, sports meets, exhibitions—the administration is struggling to keep everyone updated. Bob is tasked with building a digital command center for all school events: a place where students, teachers, and parents can stay informed and engaged.
+
+Develop a web platform that includes:
+
+- Announcements and event pages.
+- Interactive calendars and countdowns.
+- Online registrations and ticketing.
+- Optional live event updates or highlights.
+
+Challenge: Creating a scalable, interactive system that can handle multiple events smoothly with a clean user experience.
+
+### Instructions
+
+Participants are required to develop a fully functional web application.
+
+Solutions may include interactive interfaces (web, desktop, or GUI), data processing, and visual outputs.
+
+Participants are free to use any suitable programming environment (HTML/CSS/JS, React, Angular, Vue.js, etc.).
+
+The final web application must be hosted online, using platforms such as GitHub Pages, Netlify, Vercel, or similar services.
+
+A README.md file must accompany the project repository, clearly documenting:
+
+- Project purpose and objectives.
+- Technologies and frameworks used.
+- Step-by-step instructions to run or access the project.
+
+This is held as a single-round competition.
+
+### Evaluation & Scoring
+
+The submitted project will be evaluated on its ability to creatively and effectively solve the given challenge.
+
+**Functionality:** Does the application perform all required tasks correctly and efficiently?
+
+**Design & User Experience:** How intuitive, engaging, and visually appealing is the interface?
+
+**Creativity & Innovation:** Does the solution demonstrate original ideas, unique features, or creative approaches?
+
+**Code Structure & Quality:** Is the code clean, organized, and maintainable?
+
+Adding backend functionality, such as databases or APIs, will be considered a bonus and can improve scoring.
+
+Multiple submissions are not allowed. Only the first submitted version will be evaluated.
+
+### Submission
+
+Submit a public GitHub repository link containing the project code through the official SYNC '26 website. Submission must take place before the deadline. Any modifications made after the deadline will not be considered.
+
+Provide a hosted link to the live web application.
+
+Ensure all links are accessible and fully functional before the deadline.
+
+## 13. COMPETITION 3 — PHOTO MANIPULATION
+
+Competition description:
+
+“Transform the digital world into a futuristic visual experience using advanced photo manipulation, lighting, textures, and artistic storytelling.”
+
+### Overview
+
+Step into a futuristic digital world where neon lights illuminate a vast cyber landscape. The Photo Manipulation Competition invites participants to explore imagination, technical skill, and artistic storytelling to create visually striking digital artwork inspired by a high-tech, neon-infused universe.
+
+This is a chance to experiment with light, color, and composition, transforming digital spaces into scenes full of energy and movement.
+
+### Theme
+
+“The Future-Tech Realm: A Digital Frontier”
+
+Designs should reflect a futuristic digital realm characterized by glowing grids, sleek cybernetic elements, and immersive, high-tech environments.
+
+Participants are encouraged to create a visually captivating world, combining dynamic lighting, bold colors, and imaginative digital structures to tell a story or convey a concept.
+
+### Participation
+
+Students from Grade 6–13 of Dharmaraja College and other schools are eligible to participate.
+
+Individual participation only; no team submissions.
+
+Schools may have multiple participants.
+
+Registration must be completed by the specified deadline.
+
+Each participant may submit only one entry.
+
+### Instructions
+
+Only Adobe Photoshop may be used for creating the artwork.
+
+Participants must capture regular process screenshots to document their workflow.
+
+Artwork should maintain a consistent theme and aesthetic, inspired by futuristic digital environments.
+
+Templates or pre-made designs are not allowed; originality is mandatory.
+
+Any dimensions may be used for the final artwork.
+
+### Evaluation & Scoring
+
+**Concept & Relevance:** How effectively the artwork captures the futuristic digital theme.
+
+**Creativity:** Originality and innovative approach.
+
+**Visual Appeal:** Composition, color, and lighting effects.
+
+**Technical Skill:** Use of Photoshop tools, layers, and techniques.
+
+**Audience Impact:** Ability of the artwork to engage and communicate visually.
+
+### Submission
+
+Project files to be submitted should include all layers, textures, and assets in a `.rar` archive.
+
+Final artwork: Export the completed piece as `.png` or `.jpg`.
+
+Uploading file should be named in the format `Photo_SchoolName_YourName.rar`.
+
+Example: `Photo_RoyalCollege_MihinRukshan.rar`.
+
+Upload the Google Drive link of your archive via the official website of SYNC '26, setting public access to your archive.
+
+Submissions received after the deadline will not be considered.
+
+## 14. COMPETITION 4 — POSTER DESIGN
+
+Competition description:
+
+“Create a futuristic promotional poster that feels like an event happening in real time.”
+
+### Overview
+
+This competition will challenge participants to create a bold, futuristic graphic poster that captures the essence of the event in a “happening now” style.
+
+Posters should not only be visually appealing but also reflect the dynamic energy, digital aesthetic, and innovative spirit of BTUI'26.
+
+The best submission may be featured as part of the official announcement of BTUI'26 on the main event day, giving participants the chance to see their work showcased to a wide audience.
+
+### Theme
+
+“Happening Now: A Futuristic Call to BTUI'26”
+
+Participants must design a poster styled around the current identity of BTUI'26—a digital frontier of light, innovation, and immersive technology.
+
+The design should feel present, alive, and event-ready, with a look suitable for actual promotional use.
+
+### Participation
+
+Students from Grade 6–13 of Dharmaraja College and other schools are eligible to participate.
+
+Individual entries only; team participation is not permitted.
+
+Schools may send any number of participants.
+
+Registration must be completed by the specified deadline.
+
+Each participant is limited to one poster submission.
+
+### Instructions
+
+Participants may use Adobe Photoshop, Illustrator, or any professional graphic design software.
+
+Designs must represent a “Happening Now” SYNC '26 poster concept.
+
+Submissions must be original; plagiarism or use of stock templates will lead to disqualification.
+
+Posters should maintain a consistent futuristic aesthetic inspired by neon-lit, cyber-infused visual language.
+
+Standard poster dimensions are recommended (A3 or A4 portrait), but creativity in layout will be valued.
+
+### Evaluation & Scoring
+
+**Concept & Relevance:** How effectively the artwork captures the futuristic digital theme.
+
+**Creativity:** Originality and innovative approach.
+
+**Visual Appeal:** Composition, color, and lighting effects.
+
+**Technical Skill:** Use of design tools, layers, and techniques.
+
+**Audience Impact:** Ability of the artwork to engage and communicate visually.
+
+### Submission
+
+Poster file: Export the final design in `.png` or `.jpg` format.
+
+Editable source file: Submit the working file (`.psd`, `.ai`, or equivalent) with all layers intact.
+
+The file to be uploaded should be named in the format `Poster_SchoolName_YourName.rar`.
+
+Example: `Poster_RoyalCollege_MihinRukshan.rar`.
+
+Upload the Google Drive link of your archive via the official website of SYNC '26, setting public access to your archive.
+
+Submissions received after the deadline will not be considered.
+
+## 15. COMPETITION 5 — LOGO DESIGN
+
+Competition description:
+
+“Create a memorable, futuristic identity that communicates innovation, digital transformation, and creative thinking.”
+
+### Overview
+
+Participants should design a futuristic, tech-inspired logo that embodies the spirit of innovation, digital transformation, and boundary-breaking creativity, suitable for a future-tech event.
+
+### Participation
+
+Students from Grade 6–13 of Dharmaraja College and other schools are eligible to participate.
+
+Individual participation only; no team submissions.
+
+Schools may have multiple participants.
+
+Registration must be completed by the specified deadline.
+
+Each participant may submit only one entry.
+
+### Instructions
+
+Logos must be created digitally using professional design tools such as Adobe Illustrator, Photoshop, Figma, or equivalent.
+
+Submissions must include both a full-color version and a simplified monochrome version.
+
+The design should be scalable, usable on small digital icons and large posters.
+
+All work must be original; plagiarism and use of stock logo templates will lead to disqualification.
+
+A short design note must accompany the logo, explaining the inspiration and concept.
+
+### Evaluation & Scoring
+
+**Concept & Relevance:** How well the logo conveys a futuristic and digital-forward identity while aligning with the competition's vision.
+
+**Creativity:** Freshness of the idea, innovative symbolism, and uniqueness of the visual identity.
+
+**Simplicity & Memorability:** Ability of the logo to remain clear, distinctive, and easily recognizable across contexts.
+
+**Versatility:** How effectively the logo adapts across mediums and formats, including print, digital, monochrome, and scaled versions.
+
+**Visual Impact:** The immediate impression the logo leaves—professionalism, aesthetic balance, and ability to engage the audience.
+
+### Submission
+
+Contestants should export the logo in `.png` and `.jpg` formats, including color and monochrome versions.
+
+Uploading file should be named in the format `Logo_SchoolName_YourName.rar`.
+
+Example: `Logo_RoyalCollege_MihinRukshan.rar`.
+
+Upload the Google Drive link of your archive via the official website of SYNC '26, setting public access to your archive.
+
+Submissions received after the deadline will not be considered.
+
+## 16. COMPETITION 6 — UI/UX DESIGN
+
+Competition description:
+
+“Imagine how people will experience the next generation of digital products.”
+
+### Overview
+
+This competition challenges participants to merge creativity with functionality by designing a futuristic user interface and user experience concept.
+
+The aim is to imagine a digital environment that feels immersive, seamless, and intuitive—pushing boundaries of how humans may interact with systems in the near future.
+
+### Theme
+
+“Beyond the Screen: Envisioning Interactive Futures”
+
+Design a digital product interface that captures the essence of tomorrow's technology—bold, fluid, and adaptive to users' needs in a future-tech world.
+
+### Participation
+
+Students from Grade 6–13 of Dharmaraja College and other schools are eligible to participate.
+
+Individual participation only; no team submissions.
+
+Schools may have multiple participants.
+
+Registration must be completed by the specified deadline.
+
+Each participant may submit only one entry.
+
+### Instructions
+
+Participants may use any recognized UI/UX design tools, such as Figma, Adobe XD, or Sketch.
+
+The design must include at least one primary interface screen, such as a homepage, dashboard, or app main screen.
+
+Provide a short user flow or wireframe sketch showing at least two to three connected screens.
+
+No plagiarism or use of pre-made templates—designs must be original.
+
+The interface should demonstrate both aesthetic vision and user-centered thinking.
+
+### Evaluation & Scoring
+
+**Concept & Innovation:** Originality and futuristic vision of the interface.
+
+**User Experience:** Intuitiveness, accessibility, and clarity of user flow.
+
+**Visual Design:** Aesthetics, layout, typography, and overall style.
+
+**Functionality & Consistency:** Logical structure, responsiveness, and design coherence.
+
+**Impact & Engagement:** Ability to engage users and convey a futuristic digital identity.
+
+### Submission
+
+Contestants should submit the following:
+
+- Export interface screens in `.png` or `.jpg`.
+- Provide an interactive prototype link (Figma, Adobe XD, etc.) if available.
+- A PDF file including a brief concept note of a maximum of 200 words, two to three wireframe sketches/user flows, and screenshots of the design process.
+
+Upload all the files to a `.zip` or `.rar` folder and rename it in the format `UIUX_SchoolName_YourName.rar`.
+
+Example: `UIUX_RoyalCollege_MihinRukshan.rar`.
+
+Upload the Google Drive link of your archive via the official website of SYNC '26, setting public access to your archive.
+
+Submissions received after the deadline will not be considered.
+
+## 17. COMPETITION 7 — INTER-SCHOOL QUIZ
+
+Use the supplied `quiz logo` on the card and in the detail view.
+
+The competition must be described as a team-based ICT knowledge competition.
+
+### Overview
+
+The Inter-School Quiz competition tests students on a wide range of ICT topics, including fundamentals, emerging technologies, digital ethics, and industry trends.
+
+The quiz will be conducted in two online rounds followed by a final physical round at BTUI'26, where the top performers will compete for the championship.
+
+### Participation
+
+Students of Grades 10–13 from schools across Sri Lanka are allowed to participate.
+
+Teams only. No individual or mixed-school entries are allowed.
+
+A maximum of five members are allowed for each team.
+
+All team members must be enrolled in the specific participating school.
+
+Registration for the quiz competition must be completed by the specified deadline.
+
+Only two teams per school.
+
+### Competition Format
+
+**Round 1 — Online Preliminary**
+
+Conducted online via the official SYNC '26 quiz portal.
+
+Consists of a mix of multiple-choice questions (MCQs) and short-answer challenges.
+
+Teams will work together in Zoom Breakout Rooms.
+
+Duration and timing will be informed to participants prior to the round.
+
+Teams will be ranked based on their cumulative score, with the top eight teams advancing to the semifinal.
+
+**Round 2 — Online Semifinal**
+
+Conducted online via the official SYNC '26 quiz portal.
+
+Consists of advanced MCQs and scenario-based questions to test analytical and technical reasoning.
+
+Teams continue to work in assigned Zoom Breakout Rooms collaboratively.
+
+Details regarding duration and timing will be provided before the round.
+
+Teams will be ranked according to their total score, with the top two teams qualifying for the final round.
+
+**Final Round — Physical at SYNC '26 Main Event**
+
+The final round will be held onsite during the main event of SYNC '26.
+
+The top two teams from the semifinal round conducted online will be selected for the final round.
+
+Questions will cover:
+
+- ICT concepts from Advanced and Ordinary Level syllabus.
+- Programming logic and problem-solving.
+- General technology and innovation knowledge.
+
+Format: An interactive quiz featuring live scoring, innovative elements, and unique features.
+
+### Online Round Guidelines
+
+Teams must ensure reliable access to Zoom and the SYNC '26 quiz portal before the quiz rounds.
+
+All team members must have functioning cameras and microphones on throughout the round.
+
+Any form of cheating or use of external sources will lead to immediate disqualification.
+
+### Code of Conduct
+
+Team communication is permitted only between registered team members within breakout rooms.
+
+Organizers will actively monitor all breakout rooms.
+
+Violation of rules or dishonest conduct results in disqualification.
+
+Time limit per question: Each question has a preset time. Answers submitted after the time expires will not be counted.
+
+Late access: Teams unable to join within the scheduled time may be disqualified.
+
+### Technical Requirements
+
+Each participant must have a working device with a camera, microphone, and stable internet.
+
+Teams must ensure access to Zoom and the SYNC '26 quiz portal without technical issues.
+
+## 18. COMPETITION 8 — ASPECT GAMING COMPETITION
+
+Use the actual `gaming logo` from the Google Drive folder.
+
+Display the competition identity as:
+
+“ASPECT — GAMING COMPETITION”
+
+Game reference: Call of Duty 3.
+
+Create a visually distinct gaming competition card using the same green-ice brand.
+
+Include gaming-inspired lighting, futuristic targeting graphics, subtle HUD-style motion, and an appropriate cinematic background.
+
+Provide `VIEW DETAILS`, `REGISTER NOW`, and `CONTACT` controls.
+
+Do not invent the tournament rules, team format, map rotation, registration deadline, scoring system, schedule, prizes, or eligibility restrictions. These details have not been provided and must remain configurable until the organizers confirm them.
+
+Display an honest message such as “Competition rules and schedule will be announced through the official event channels” wherever the missing information is relevant.
+
+## 19. COMPETITION REGISTRATION — FULLY FUNCTIONAL
+
+This is one of the most important parts of the website.
+
+Each competition must have its own registration entry point.
+
+When the visitor clicks Register Now, open a beautifully animated, premium glass registration modal or dedicated registration screen.
+
+The selected competition name must already be populated.
+
+### General registration form
+
+**Title:** `REGISTER FOR [SELECTED COMPETITION]`
+
+Fields:
+
+1. Competition — populated automatically.
+2. Participation Type — required dropdown.
+3. Full Name — required.
+4. School Name — required.
+5. Grade — required dropdown.
+6. Email Address — required.
+7. Contact Number — required.
+
+Participation Type options:
+
+- Intra-School — Dharmaraja College.
+- Inter-School — Other School.
+
+Grade options: Grade 6, 7, 8, 9, 10, 11, 12, 13.
+
+Use meaningful validation messages.
+
+Grade eligibility must be enforced for each competition.
+
+The quiz is restricted to Grades 10–13.
+
+Web Development and the other specified individual competitions must use their stated Grade 6–13 eligibility.
+
+### Quiz-specific registration
+
+The quiz must use a team registration experience rather than an individual registration.
+
+Collect:
+
+- Team Name.
+- Participating School.
+- Team Captain's Full Name.
+- Team Captain's Grade.
+- Team Contact Number.
+- Team Contact Email.
+- Details for up to five registered team members.
+- Full names and grades of all team members.
+
+All team members must belong to the same school.
+
+Enforce the five-member limit and the Grade 10–13 eligibility rule.
+
+Mention the two-team-per-school restriction. Provide appropriate validation or an organizer-managed check for the actual number of teams already registered.
+
+Never pretend the two-team restriction has been checked against existing registrations unless the backend actually performs that check.
+
+### Registration user experience
+
+Create a polished multistep or carefully organized form.
+
+Include:
+
+- Animated field focus states.
+- Clearly visible labels.
+- Required-field indicators.
+- Email validation.
+- Phone validation suitable for Sri Lankan numbers.
+- Grade restrictions.
+- Duplicate-registration handling where practical.
+- A submission loading state.
+- A success confirmation state.
+- A real failure state.
+- A retry option.
+- A close or cancel button.
+- Keyboard and mobile accessibility.
+
+The Register button must not simply display a success popup without sending the registration to the backend.
+
+### Google Sheets integration
+
+Save valid registration data to a Google Sheet through Google Apps Script.
+
+Create a complete Apps Script backend in `google-apps-script/Code.gs`.
+
+Provide a clearly documented configuration for the spreadsheet ID.
+
+Create or use a sheet named `Registrations` with useful columns, including:
+
+- Timestamp.
+- Confirmation ID.
+- Competition.
+- Participation Type.
+- Full Name.
+- School.
+- Grade.
+- Email.
+- Contact Number.
+- Team Name, where relevant.
+- Team Members, where relevant.
+- Registration Status.
+
+Add fields required for the quiz without losing the common registration information.
+
+Validate the submitted information on the server as well as the client.
+
+Use a reliable cross-origin communication method suitable for the deployed Google Apps Script web app. If using a hidden iframe and `postMessage` for form submission, implement the complete working flow and document it.
+
+The frontend must receive a genuine confirmation that the Google Sheet update succeeded.
+
+Do not use a fake frontend-only array as the registration database.
+
+Do not mark the registration successful when the server fails.
+
+Do not expose sensitive server credentials or API keys in public JavaScript.
+
+### Successful registration confirmation
+
+After the backend confirms that the registration has been saved, show a beautifully animated success panel.
+
+Display:
+
+“REGISTRATION SUCCESSFUL”
+
+“Thank you, [participant name]!”
+
+“Your registration for [competition name] has been received successfully.”
+
+Show the actual confirmation ID returned by the backend.
+
+Provide the button:
+
+`JOIN WHATSAPP GROUP`
+
+Use this link:
+
+https://chat.whatsapp.com/IaBJyTRhZcACMFKUOrYndg
+
+Open the link in a new tab when clicked.
+
+Make it clear that joining the group is a separate action and is not automatically completed by registration.
+
+Do not display this success panel until the server has confirmed the Google Sheets update.
+
+If a submission fails, explain the problem clearly and allow the participant to retry.
+
+## 20. CONTACT BUTTON AND WHATSAPP INTEGRATION
+
+Each competition card and detail view should have a working Contact button.
+
+Use the following link:
+
+https://wa.link/05138r
+
+Open the WhatsApp contact link in a new tab.
+
+The WhatsApp button should use an animated green glass effect with a subtle light ring.
+
+All WhatsApp buttons must have actual click handlers or valid URLs.
+
+Do not create buttons that look interactive but do nothing.
+
+## 21. LEADERBOARD SECTION
+
+Create a visually impressive leaderboard inspired by futuristic tournament interfaces.
+
+Use the supplied leaderboard image from Google Drive if available.
+
+Use the `up logo` in the appropriate top-right position if that is its intended purpose.
+
+The leaderboard should feature a dark glass panel with green highlights, refined typography, animated rank indicators, and a readable ranking table.
+
+Include useful filters for:
+
+- Competition.
+- School.
+- Rank or score, when applicable.
+
+Display columns such as:
+
+- Rank.
+- Participant or Team.
+- School.
+- Competition.
+- Score.
+
+Use separate individual and team presentations when appropriate.
+
+Create an elegant visual treatment for the top three places once verified scores exist.
+
+Do not invent real participant names, schools, scores, rankings, or competition winners.
+
+### Leaderboard data
+
+Build the leaderboard so it can retrieve verified results from a configured Google Sheet or backend endpoint.
+
+Document exactly how the organizers can update and publish results.
+
+If no verified leaderboard dataset has been connected, show an attractive empty state such as:
+
+“THE RANKINGS WILL BE REVEALED HERE.”
+
+“Official scores will appear once results are published.”
+
+Do not create fictional rankings to make the screen look populated.
+
+## 22. ABOUT SECTION
+
+Create an immersive About section with animated glass panels and a suitable institutional visual.
+
+Use the following content:
+
+**ABOUT US**
+
+“The Information and Communication Technology Society of Dharmaraja College boasts a rich and dynamic history spanning over a decade. Our mission is to inspire and empower through a wide range of initiatives, including extracurricular activities, educational programs, and technology-focused events. These efforts aim to enhance ICT knowledge and foster collaboration among students.”
+
+**COMMUNITY ENGAGEMENT**
+
+“The society welcomes students who are tech enthusiasts to those curious about the digital world.”
+
+**JOIN THE MOVEMENT**
+
+“Are you ready to be part of something extraordinary? The ICT Society is looking for dynamic individuals like you to join us for the year 2026.”
+
+Use elegant reveal animations and maintain the green-ice theme.
+
+Do not make up additional historical claims.
+
+## 23. CONTACT SECTION
+
+Create a distinctive contact section using a large, dramatic, multi-line heading inside or alongside an advanced glass interface.
+
+Required headline:
+
+GET
+
+IN
+
+TOUCH
+
+Introductory copy:
+
+“HAVE QUESTIONS ABOUT BTUI'26? WANT TO KNOW MORE ABOUT THE COMPETITIONS OR REGISTRATION PROCESS? OUR TEAM IS HERE TO HELP. REACH OUT TO US THROUGH ANY OF THE CHANNELS BELOW AND WE'LL GET BACK TO YOU AS SOON AS POSSIBLE.”
+
+### CONTACT INFORMATION
+
+**MUDITHA BRO**
+
++94 70 264 5851
+
+**NETHUN THE EDITOR**
+
++94 71 490 6145
+
+Add functional telephone links and appropriate WhatsApp actions where configured.
+
+### COMMUNITY ENGAGEMENT
+
+“The society welcomes students who are tech enthusiasts to those curious about the digital world.”
+
+### ABOUT US
+
+Use the supplied About Us content.
+
+### EMAIL
+
+drck.ictsociety@gmail.com
+
+Create a functioning `mailto:` link.
+
+### SOCIAL LINKS
+
+Include:
+
+- Instagram — Dharmaraja College ICT Society.
+- Facebook — Dharmaraja College ICT Society.
+- Email — drck.ictsociety@gmail.com.
+
+Use the correct social URLs only when they are available in the supplied assets or project configuration.
+
+Do not invent Instagram or Facebook account URLs.
+
+Provide a clearly marked configuration field for any missing social links.
+
+The entire contact area should feel like a premium digital command center, featuring glass panels, animated headings, subtle particles, and interactive neon-green accents.
+
+## 24. ADVANCED AI CHATBOT
+
+Create a floating futuristic AI assistant that remains available throughout the website.
+
+The assistant must look like a small animated cybernetic robot, not a generic circular chatbot icon.
+
+Use the supplied robot artwork if available.
+
+If an appropriate 3D model exists, use Three.js to animate it. Otherwise, build a lightweight animated robot using CSS, SVG, and layered assets.
+
+### Bot interactions
+
+- Floating idle animation.
+- Subtle head or eye movement where supported.
+- Glowing eyes.
+- Interactive open and close animation.
+- Glass chat window.
+- Typing indicator.
+- Readable conversation history.
+- Quick-action buttons.
+- Competition-aware responses.
+- Mobile-friendly interface.
+- Helpful error messages.
+- Keyboard support.
+
+Suggested greeting:
+
+“Hey! I'm the SYNC AI assistant. Need help choosing a competition, checking eligibility, or registering?”
+
+Suggested quick actions:
+
+- Explore Competitions.
+- Registration Help.
+- Competition Rules.
+- Grade Eligibility.
+- Contact Organizers.
+
+### AI capabilities
+
+The assistant should answer questions using the official competition information supplied in this project.
+
+It should explain:
+
+- Competition rules.
+- Grade requirements.
+- Individual versus team participation.
+- Submission formats.
+- Scoring and evaluation.
+- Registration requirements.
+- The difference between competitions.
+- Quiz eligibility and team requirements.
+- How to contact the organizers.
+- How to join the WhatsApp group.
+
+When asked to register, the bot should help the visitor select a competition and open the actual registration form.
+
+The bot must not invent deadlines, prices, prizes, schedules, results, or rules.
+
+If information has not been provided, the assistant should clearly say that the details have not yet been announced and direct the participant to the organizers.
+
+### Secure AI integration
+
+If using the Gemini API, implement secure server-side communication through Google Apps Script or another documented backend.
+
+Never place a Gemini API key directly in public `js/` files.
+
+Store sensitive API configuration in server-side Script Properties or an equivalent secure environment.
+
+Include a useful local FAQ fallback for cases in which the AI backend is not configured or is unavailable.
+
+The chatbot must not claim to have registered a user unless the normal registration backend has actually confirmed the registration.
+
+Do not let the bot submit forms without the participant explicitly completing and confirming the form.
+
+## 25. BACKGROUND MUSIC AND INTERACTION SOUNDS
+
+The Google Drive folder may contain the website's intended background music and sound effects.
+
+Use the supplied music when available.
+
+The audio experience must include:
+
+- A visible music toggle.
+- A clear muted/unmuted state.
+- A volume adjustment where appropriate.
+- Seamless looping.
+- Suitable audio handling when navigating between sections.
+- An optional subtle button sound effect.
+- An appropriate error fallback if the sound file fails to load.
+
+Browsers often block autoplay with sound. Start or resume the music after a deliberate user interaction, such as clicking Enter, Enable Sound, or the music toggle. Do not repeatedly force autoplay.
+
+Keep sound effects short, quiet, and optional.
+
+Do not play a loud sound after every click.
+
+Do not allow multiple copies of the same background track to play simultaneously.
+
+Respect reduced-motion preferences and give users control over the experience.
+
+## 26. CUSTOM CURSOR AND POINTER EFFECTS
+
+On desktop, create a sophisticated cursor enhancement with a small green light orb or subtle tracking particle.
+
+The effect should respond to the pointer without obscuring text or buttons.
+
+Add special cursor responses over:
+
+- Competition cards.
+- Registration buttons.
+- Important links.
+- The hero's interactive artwork.
+
+Use gentle magnetic interactions where appropriate.
+
+Keep the standard pointer usable and preserve accessible focus states.
+
+Disable expensive custom cursor effects on touch devices.
+
+## 27. DETAILED ANIMATION SPECIFICATION
+
+Use a coordinated GSAP animation architecture.
+
+### Hero sequence
+
+- Fade up the event logo.
+- Reveal the headline in staggered lines.
+- Animate the main artwork into position.
+- Bring the secondary robot visual into focus.
+- Illuminate selected edges with green light.
+- Reveal the action buttons.
+- Introduce background particles and depth movement.
+
+### Competition navigation transition
+
+- Highlight the active navigation item.
+- Briefly move or rotate the relevant foreground visual.
+- Use a green scanning beam or mask transition.
+- Reveal competition cards with staggered motion.
+- Keep navigation responsive.
+
+### Competition card transitions
+
+- Use perspective-aware hover interactions.
+- Animate the glass border.
+- Introduce a moving reflection.
+- Bring the logo into focus.
+- Open the selected competition into an immersive rules view.
+
+### Rules page
+
+- Reveal the heading first.
+- Animate the competition description.
+- Reveal individual rule sections.
+- Allow users to navigate long rules comfortably.
+- Keep the registration CTA accessible without covering the content.
+
+### Registration form
+
+- Animate the modal into view.
+- Stagger the input fields.
+- Focus fields cleanly.
+- Animate validation messages without causing layout chaos.
+- Show real loading and success/error states.
+
+### Leaderboard
+
+- Reveal the leaderboard panel.
+- Animate ranking indicators only when backed by real data.
+- Use smooth filter transitions.
+- Never animate fake scores or fictional data.
+
+### AI assistant
+
+- Idle animation when closed.
+- Short opening animation.
+- Animated typing indicator during a real request.
+- Smooth message appearance.
+- Error recovery state.
+
+### Scrolling
+
+Use natural smooth scrolling and scroll-triggered animations.
+
+Do not force the page to snap aggressively from one section to another.
+
+Do not hijack the scroll wheel.
+
+Do not cause the page to jump when loading images or fonts.
+
+## 28. RESPONSIVE DESIGN
+
+The website must work on:
+
+- Desktop computers.
+- Laptops.
+- Tablets.
+- Mobile phones.
+
+At desktop widths, emphasize the cinematic hero, full-size visual effects, broad glass panels, and advanced transitions.
+
+On mobile:
+
+- Stack hero content intelligently.
+- Keep the event title fully readable.
+- Scale and simplify 3D elements.
+- Make competition cards easy to tap.
+- Avoid horizontal scrolling.
+- Keep the registration modal within the screen.
+- Make all inputs touch-friendly.
+- Use a collapsible navigation menu.
+- Ensure the AI chatbot never blocks the main CTA.
+- Keep the music controls accessible.
+- Reduce particle counts and expensive animation loops.
+
+Test narrow mobile widths and landscape orientation.
+
+Support keyboard navigation, visible focus indicators, meaningful image alt text, and reduced-motion preferences.
+
+Use appropriate contrast despite the neon aesthetic.
+
+## 29. PERFORMANCE AND CODE QUALITY
+
+The site should be visually ambitious without being unnecessarily heavy.
+
+Requirements:
+
+- Lazy-load below-the-fold images.
+- Optimize image dimensions.
+- Use `requestAnimationFrame` appropriately.
+- Avoid excessive DOM manipulation.
+- Avoid continuously rendering Three.js scenes when they are not visible.
+- Dispose of unused 3D resources.
+- Prefer transforms and opacity for animation.
+- Avoid layout thrashing.
+- Pause or reduce animations when the tab is hidden.
+- Handle failed image, audio, and API requests.
+- Keep the code modular and maintainable.
+- Use clear variable names and code comments.
+- Avoid duplicate event listeners.
+- Avoid console errors.
+- Avoid horizontal overflow.
+- Ensure buttons work with both mouse and keyboard.
+
+Use locally supplied images where possible rather than depending on random remote image sources.
+
+Do not use unrelated stock photographs simply to fill empty space.
+
+## 30. IMPORTANT EVENT IDENTITY RULE
+
+The supplied competition descriptions contain both SYNC '26 and BTUI'26 references.
+
+Preserve the official names found in the supplied logo assets and event materials.
+
+Do not silently invent a new event name or rewrite the competition rules to resolve this inconsistency.
+
+Use the official event logo and maintain the supplied wording where appropriate.
+
+The website must be visually unified, but the official identities and factual competition information must remain accurate.
+
+## 31. IMPLEMENTATION CONFIGURATION
+
+Create `js/config.js` for non-secret frontend configuration.
+
+Include clearly named configuration entries for:
+
+- Official event logo.
+- Quiz logo.
+- Gaming logo.
+- Upper-right logo.
+- Leaderboard artwork.
+- Background music.
+- Optional sound effects.
+- WhatsApp contact URL.
+- WhatsApp group URL.
+- Email.
+- Organizer phone numbers.
+- Instagram URL.
+- Facebook URL.
+- Google Apps Script web app endpoint.
+- Leaderboard endpoint or its configured data source.
+
+Do not place secret API keys, spreadsheet credentials, or privileged backend information inside this public JavaScript configuration.
+
+Add meaningful comments to every configuration item that requires organizer setup.
+
+## 32. GOOGLE APPS SCRIPT BACKEND DELIVERABLES
+
+Generate the actual backend source in `google-apps-script/Code.gs`.
+
+It must provide the server-side operations necessary for:
+
+1. Registration validation.
+2. Writing valid registrations to Google Sheets.
+3. Returning a real registration confirmation.
+4. Providing useful error responses.
+5. Retrieving published leaderboard data.
+6. Handling the chatbot's server-side AI request when configured.
+
+Use appropriate separation between registration records and published leaderboard data.
+
+Create a `Registrations` sheet and a documented results data source.
+
+Use server-side checks to reject invalid or ineligible registrations.
+
+Do not accept arbitrary leaderboard scores or let the public interface modify official results.
+
+Configure authorized organizer updates separately from public registrations.
+
+If AI requests are forwarded to a Gemini model, store the API key in Google Apps Script Script Properties and keep it out of the browser.
+
+Provide a practical setup guide showing exactly how to:
+
+- Create the Google Sheet.
+- Add the Apps Script source.
+- Configure the spreadsheet ID.
+- Configure the optional Gemini API key.
+- Deploy the Apps Script as a web app.
+- Set suitable execution and access permissions.
+- Copy the deployed web app URL.
+- Add the URL to the frontend configuration.
+- Test a registration end to end.
+- Publish leaderboard data.
+
+Explain the security and permissions implications of the chosen deployment settings.
+
+Do not claim the backend is live until the spreadsheet, script deployment, and frontend endpoint have actually been configured and tested.
+
+## 33. README AND HANDOVER
+
+Create a complete `README.md` containing:
+
+- Project description.
+- Technology stack.
+- Project folder structure.
+- How to run the website locally.
+- Where to place each official image and logo.
+- How to configure the navigation and event branding.
+- How to configure the music and optional sound effects.
+- How to set up Google Sheets registration.
+- How to deploy Apps Script.
+- How to configure the AI assistant.
+- How to publish the leaderboard.
+- How to change official contact details.
+- How to update social media links.
+- How to deploy the static frontend.
+- A pre-launch testing checklist.
+- Troubleshooting instructions.
+
+Clearly distinguish features that work immediately in the frontend from features requiring external configuration.
+
+## 34. FINAL ACCEPTANCE CHECKLIST
+
+Before calling the project complete, verify the following:
+
+[ ] The website has a cohesive, premium green-ice visual identity.
+
+[ ] The home page uses the cinematic composition inspired by the supplied reference.
+
+[ ] The official event logo is preserved.
+
+[ ] Robots and spider/sculpture visuals are animated where suitable assets or implementations allow.
+
+[ ] The preloader works and can never trap the user indefinitely.
+
+[ ] The background music has a working user-controlled toggle.
+
+[ ] The navigation works.
+
+[ ] All eight competition cards are present.
+
+[ ] The correct quiz and gaming logos are assigned.
+
+[ ] Each competition opens its own detailed information view.
+
+[ ] The supplied competition rules are included in their entirety.
+
+[ ] The registration form adapts to the selected competition.
+
+[ ] Intra-school and inter-school participation options work.
+
+[ ] Grade eligibility is enforced.
+
+[ ] Quiz registration supports team participation and up to five members.
+
+[ ] Valid registrations are saved to Google Sheets.
+
+[ ] Success is displayed only after the backend confirms the write.
+
+[ ] A confirmation ID appears after successful registration.
+
+[ ] The WhatsApp group button works.
+
+[ ] The competition Contact buttons use the specified WhatsApp URL.
+
+[ ] The AI assistant opens, responds, and handles errors.
+
+[ ] The AI assistant uses a secure backend when an API key is configured.
+
+[ ] The leaderboard does not display fictional scores or winners.
+
+[ ] The contact details are accurate.
+
+[ ] The site works on desktop and mobile.
+
+[ ] All important buttons and navigation links are functional.
+
+[ ] Animations are smooth and do not compromise accessibility.
+
+[ ] No secret credentials are exposed in the frontend.
+
+[ ] The project includes all required source files and a useful README.
+
+[ ] No major console errors, broken images, dead buttons, or fake success states remain.
+
+## 35. EXECUTION INSTRUCTIONS
+
+Now build the actual website.
+
+First, inspect the provided assets and establish the project's structure. Then implement the complete frontend, the animation system, the competition details, the registration experience, and the backend integration files.
+
+Do not stop after generating the hero section.
+
+Do not provide only wireframes.
+
+Do not substitute the Google Sheets integration with a demonstration-only form.
+
+Do not replace the specified green palette with blue.
+
+Do not discard the original competition rules.
+
+Do not use placeholder text where actual event content has been provided.
+
+Create the source files in a structured, maintainable project that the organizer can run, configure, test, and deploy.
+
+If a credential, external account, deployment URL, or inaccessible asset prevents a feature from being fully activated, implement the feature's complete source code, document exactly what the organizer must configure, and clearly identify the remaining dependency.
+
+Prioritize visual excellence, originality, genuine functionality, smooth animation, security, responsiveness, and an exceptional user experience.
+
+The final result must look like an original, award-level futuristic ICT competition website—not an ordinary template with green buttons.
+
+Build it with maximum creative ambition and professional execution.

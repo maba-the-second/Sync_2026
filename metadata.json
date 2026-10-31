@@ -1,0 +1,6 @@
+{
+  "name": "SYNC ’26 | BTUI’26 — Futuristic Competition Hub",
+  "description": "Official futuristic competition platform for Dharmaraja College ICT Society: competitions, registration, rules, leaderboard, and AI assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

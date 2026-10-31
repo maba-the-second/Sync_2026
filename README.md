@@ -78,6 +78,20 @@ The website is completely static-compatible and runs instantly:
   ```
 - Or deploy directly to static hosts such as **GitHub Pages**, **Netlify**, or **Vercel** simply by uploading the project repository.
 
+### Deploying to GitHub Pages
+This repository is pre-configured for **GitHub Pages** (`https://<username>.github.io/Sync_2026/`) using either method below:
+
+1. **Method A — Deploy from a Branch (Fastest)**:
+   - On GitHub, go to **Settings > Pages**.
+   - Under **Build and deployment > Source**, select **Deploy from a branch**.
+   - Select branch **`main`** and folder **`/ (root)`**, then click **Save**.
+   - A `.nojekyll` file and relative asset paths (`./assets/...`, `./css/...`, `./js/...`) are already configured so the site deploys immediately.
+
+2. **Method B — GitHub Actions Workflow (`.github/workflows/deploy.yml`)**:
+   - On GitHub, go to **Settings > Pages**.
+   - Under **Build and deployment > Source**, select **GitHub Actions**.
+   - Every push to `main` (or manual trigger in the **Actions** tab) automatically bundles `index.html`, `assets/`, `css/`, `js/`, and `.nojekyll` and publishes to GitHub Pages.
+
 ### Running Pure Logic Unit Tests
 Core business logic, grade eligibility limits, Sri Lankan mobile number validation, and confirmation ID generators are covered by deterministic tests using Node's test runner:
 ```bash

@@ -70,7 +70,7 @@ export const COMPETITIONS_DATA = [
   {
     id: 'poster',
     name: 'Poster Design',
-    tagline: 'Happening Now: A Futuristic Call to BTUI\'26',
+    tagline: 'Happening Now: A Futuristic Call to SYNC \'26',
     description: 'Create a futuristic promotional poster that feels like an event happening in real time.',
     category: 'Graphic Design',
     minGrade: 6,
@@ -114,7 +114,7 @@ export const COMPETITIONS_DATA = [
     isTeam: true,
     maxTeamMembers: 5,
     maxTeamsPerSchool: 2,
-    rounds: 'Round 1 (Online Zoom + Portal) -> Round 2 (Online Semifinal) -> Grand Physical Final at SYNC ’26 / BTUI’26 Main Event',
+    rounds: 'Round 1 (Online Zoom + Portal) -> Round 2 (Online Semifinal) -> Grand Physical Final at SYNC ’26 Main Event',
     submission: 'Team registration with Captain + up to 5 members from the same school.'
   },
   {
@@ -321,7 +321,7 @@ export function getFaqAnswer(query: string): string {
   }
 
   if (q.includes('contact') || q.includes('phone') || q.includes('number') || q.includes('organizer')) {
-    return 'Official contacts: Muditha (+94 70 264 5851) & Nethun (+94 71 490 6145), or email drck.ictsociety@gmail.com.';
+    return 'Official contacts: Muditha Koralegedara (+94 70 264 5851) & Nethun (+94 71 490 6145), or email drck.ictsociety@gmail.com.';
   }
 
   if (q.includes('aspect') || q.includes('cod') || q.includes('gaming')) {
@@ -329,7 +329,7 @@ export function getFaqAnswer(query: string): string {
   }
 
   if (q.includes('prize') || q.includes('deadline') || q.includes('schedule') || q.includes('date')) {
-    return 'Official competition dates, final deadlines, and awards will be announced through the official SYNC ’26 / BTUI’26 WhatsApp group and official event channels.';
+    return 'Official competition dates, final deadlines, and awards will be announced through the official SYNC ’26 WhatsApp group and official event channels.';
   }
 
   return 'I am the SYNC AI assistant. You can ask about competition rules, grade eligibility (Grades 6–13, Quiz 10–13), team limits, submission formats, or contact details for the Dharmaraja College ICT Society!';

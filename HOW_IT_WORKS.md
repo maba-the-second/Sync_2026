@@ -1,6 +1,6 @@
-# How the SYNC ’26 / BTUI’26 Platform Works
+# How the SYNC ’26 Platform Works
 
-An end-to-end architectural and operational guide to the **SYNC ’26 / BTUI’26** competition hub built for the **Dharmaraja College ICT Society**.
+An end-to-end architectural and operational guide to the **SYNC ’26** competition hub built for the **Dharmaraja College ICT Society**.
 
 ---
 

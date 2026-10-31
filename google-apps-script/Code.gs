@@ -1,6 +1,6 @@
 /**
  * =========================================================================
- * SYNC ’26 / BTUI’26 — Google Apps Script Backend
+ * SYNC ’26 — Google Apps Script Backend
  * Dharmaraja College ICT Society
  * =========================================================================
  * 
@@ -41,7 +41,7 @@ function doGet(e) {
     } else {
       result = {
         status: "online",
-        message: "SYNC ’26 / BTUI’26 Backend API is active",
+        message: "SYNC ’26 Backend API is active",
         timestamp: new Date().toISOString()
       };
     }
@@ -226,7 +226,7 @@ function handleAiChat(prompt) {
   }
 
   var url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=" + apiKey;
-  var systemInstruction = "You are the official SYNC ’26 / BTUI’26 AI Assistant for Dharmaraja College ICT Society. Answer strictly about the 8 competition categories: Algorithm, Web Development, Photo Manipulation, Poster Design, Logo Design, UI/UX Design, Inter-School Quiz (Grades 10-13, max 5 members per team, 2 teams per school), and ASPECT Gaming (Call of Duty 3). Do not invent deadlines, prizes, or schedules not confirmed. For contacts, refer to Muditha (+94 70 264 5851) and Nethun (+94 71 490 6145).";
+  var systemInstruction = "You are the official SYNC ’26 AI Assistant for Dharmaraja College ICT Society. Answer strictly about the 8 competition categories: Algorithm, Web Development, Photo Manipulation, Poster Design, Logo Design, UI/UX Design, Inter-School Quiz (Grades 10-13, max 5 members per team, 2 teams per school), and ASPECT Gaming (Call of Duty 3). Do not invent deadlines, prizes, or schedules not confirmed. For contacts, refer to Muditha Koralegedara (+94 70 264 5851) and Nethun (+94 71 490 6145).";
 
   var requestBody = {
     contents: [

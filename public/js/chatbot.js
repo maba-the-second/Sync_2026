@@ -1,6 +1,6 @@
 /**
  * =========================================================================
- * SYNC ’26 / BTUI’26 — AI Assistant (Cyber Bot)
+ * SYNC ’26 — AI Assistant (Cyber Bot)
  * Dharmaraja College ICT Society
  * =========================================================================
  */
@@ -37,7 +37,7 @@
     },
     {
       keywords: ["poster", "poster design"],
-      answer: "Poster Design:\n• Theme: 'Happening Now: A Futuristic Call to BTUI'26'.\n• Tools: Photoshop, Illustrator, or professional design software.\n• Recommended size: A3 or A4 portrait.\n• Submission: Archive named 'Poster_SchoolName_YourName.rar' with working file (.psd, .ai) and exported PNG/JPG."
+      answer: "Poster Design:\n• Theme: 'Happening Now: A Futuristic Call to SYNC '26'.\n• Tools: Photoshop, Illustrator, or professional design software.\n• Recommended size: A3 or A4 portrait.\n• Submission: Archive named 'Poster_SchoolName_YourName.rar' with working file (.psd, .ai) and exported PNG/JPG."
     },
     {
       keywords: ["logo", "logo design"],
@@ -52,8 +52,8 @@
       answer: "Join our official channels:\n• Participant WhatsApp Group: https://chat.whatsapp.com/IaBJyTRhZcACMFKUOrYndg\n• Direct Coordinator WhatsApp Link: https://wa.link/05138r"
     },
     {
-      keywords: ["contact", "muditha", "nethun", "phone", "email", "organizer"],
-      answer: "Official Contact Channels:\n• Muditha Bro: +94 70 264 5851\n• Nethun the Editor: +94 71 490 6145\n• Email: drck.ictsociety@gmail.com\n• Direct WhatsApp: https://wa.link/05138r"
+      keywords: ["contact", "muditha", "koralegedara", "nethun", "phone", "email", "organizer"],
+      answer: "Official Contact Channels:\n• Muditha Koralegedara: +94 70 264 5851\n• Nethun the Editor: +94 71 490 6145\n• Email: drck.ictsociety@gmail.com\n• Direct WhatsApp: https://wa.link/05138r"
     },
     {
       keywords: ["register", "how to register", "signup", "apply"],
@@ -61,7 +61,7 @@
     },
     {
       keywords: ["prize", "prizes", "deadline", "date", "when"],
-      answer: "Official dates, round schedules, and prize announcements are communicated through the official SYNC '26 / BTUI'26 WhatsApp community and our school ICT society channels. Join here: https://chat.whatsapp.com/IaBJyTRhZcACMFKUOrYndg"
+      answer: "Official dates, round schedules, and prize announcements are communicated through the official SYNC '26 WhatsApp community and our school ICT society channels. Join here: https://chat.whatsapp.com/IaBJyTRhZcACMFKUOrYndg"
     }
   ];
 

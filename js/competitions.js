@@ -1,6 +1,6 @@
 /**
  * =========================================================================
- * SYNC ’26 / BTUI’26 — Competitions Module
+ * SYNC ’26 — Competitions Module
  * Dharmaraja College ICT Society
  * =========================================================================
  */
@@ -36,7 +36,7 @@
           "Submissions are accepted in C++, Python, Java, or JavaScript.",
           "Multiple attempts may be submitted for each problem.",
           "This is a single-round competition.",
-          "Final date, time, HackerRank link, and other details will be communicated through the official BTUI'26 channels and WhatsApp group."
+          "Final date, time, HackerRank link, and other details will be communicated through the official SYNC '26 channels and WhatsApp group."
         ],
         scoring: [
           "Partial scoring will be available based on successfully passed test cases/subtasks.",
@@ -160,13 +160,13 @@
       minGrade: 6,
       maxGrade: 13,
       isTeam: false,
-      tagline: "Theme: 'Happening Now: A Futuristic Call to BTUI'26'",
+      tagline: "Theme: 'Happening Now: A Futuristic Call to SYNC '26'",
       sections: {
         theme: [
-          "Theme: 'Happening Now: A Futuristic Call to BTUI'26'",
+          "Theme: 'Happening Now: A Futuristic Call to SYNC '26'",
           "Create a bold, futuristic graphic poster that captures the essence of the event in a 'happening now' style.",
-          "Posters should reflect the dynamic energy, digital aesthetic, and innovative spirit of BTUI'26.",
-          "The best submission may be featured as part of the official announcement of BTUI'26 on the main event day!"
+          "Posters should reflect the dynamic energy, digital aesthetic, and innovative spirit of SYNC '26.",
+          "The best submission may be featured as part of the official announcement of SYNC '26 on the main event day!"
         ],
         participation: [
           "Students from Grade 6–13 of Dharmaraja College and other schools are eligible to participate.",
@@ -294,11 +294,11 @@
       minGrade: 10,
       maxGrade: 13,
       isTeam: true,
-      tagline: "Two intense online rounds culminating in the Grand Physical Final at BTUI'26.",
+      tagline: "Two intense online rounds culminating in the Grand Physical Final at SYNC '26.",
       sections: {
         overview: [
           "Tests students on a wide range of ICT topics: fundamentals, emerging tech, digital ethics, programming logic, and industry trends.",
-          "Conducted in two online rounds followed by a final physical round at BTUI'26."
+          "Conducted in two online rounds followed by a final physical round at SYNC '26."
         ],
         participation: [
           "Students of Grades 10–13 from schools across Sri Lanka.",
@@ -335,7 +335,7 @@
       tagline: "Enter the cyber warfare grid in Call of Duty 3.",
       sections: {
         overview: [
-          "ASPECT is the official gaming championship of SYNC ’26 / BTUI’26, hosted by Dharmaraja College ICT Society.",
+          "ASPECT is the official gaming championship of SYNC ’26, hosted by Dharmaraja College ICT Society.",
           "Official tournament game title: Call of Duty 3.",
           "Experience fast-paced tactical competition with professional tournament oversight."
         ],

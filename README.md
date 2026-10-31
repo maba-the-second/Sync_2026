@@ -1,7 +1,7 @@
-# SYNC ’26 / BTUI’26 — Futuristic Competition Platform
+# SYNC ’26 — Futuristic Competition Platform
 ### Dharmaraja College ICT Society — Official Event Hub
 
-An award-grade, highly immersive cinematic web application built for the **SYNC ’26 / BTUI’26** ICT event organized by the **Information and Communication Technology Society of Dharmaraja College**.
+An award-grade, highly immersive cinematic web application built for the **SYNC ’26** ICT event organized by the **Information and Communication Technology Society of Dharmaraja College**.
 
 Designed with a cybernetic aesthetic inspired by dark glassmorphism, neon-ice green lighting, procedural WebGL 3D meshes, coordinate telemetry, responsive registration workflows, and an interactive AI assistant.
 
@@ -57,10 +57,10 @@ Designed with a cybernetic aesthetic inspired by dark glassmorphism, neon-ice gr
 1. **Algorithm**: Competitive online algorithmic programming on HackerRank. 5 problems, 100 points each (500 pts total), 4-hour window. Languages: C++, Python, Java, JavaScript. Grades 6–13.
 2. **Web Development**: Build Bob's digital command center for all school events (announcements, calendars, ticketing, live updates). Any framework allowed. Hosted live on GitHub Pages/Netlify/Vercel with public GitHub repository. Grades 6–13.
 3. **Photo Manipulation**: Theme: *"The Future-Tech Realm: A Digital Frontier"*. Adobe Photoshop only. Process screenshots required. RAR archive (`Photo_SchoolName_YourName.rar`) uploaded via public Google Drive link. Grades 6–13.
-4. **Poster Design**: Theme: *"Happening Now: A Futuristic Call to BTUI'26"*. Photoshop/Illustrator. Working editable file (`.psd`/`.ai`) + final PNG/JPG (`Poster_SchoolName_YourName.rar`). Best submission featured on main event day. Grades 6–13.
+4. **Poster Design**: Theme: *"Happening Now: A Futuristic Call to SYNC '26"*. Photoshop/Illustrator. Working editable file (`.psd`/`.ai`) + final PNG/JPG (`Poster_SchoolName_YourName.rar`). Best submission featured on main event day. Grades 6–13.
 5. **Logo Design**: Futuristic tech-inspired logo. Full-color + simplified monochrome versions + short concept design note. Archive named `Logo_SchoolName_YourName.rar`. Grades 6–13.
 6. **UI/UX Design**: Theme: *"Beyond the Screen: Envisioning Interactive Futures"*. Figma, Adobe XD, or Sketch. Minimum 1 primary interface screen + 2-3 screen wireframe flow + max 200-word concept note PDF. Archive named `UIUX_SchoolName_YourName.rar`. Grades 6–13.
-7. **Inter-School Quiz**: Premier team competition. **Strictly Grades 10–13**. Teams of up to 5 members from the same school (max 2 teams per school). Round 1 (Online Preliminary) + Round 2 (Online Semifinal) in Zoom breakout rooms, leading to the Grand Physical Final at SYNC ’26 / BTUI’26 main event.
+7. **Inter-School Quiz**: Premier team competition. **Strictly Grades 10–13**. Teams of up to 5 members from the same school (max 2 teams per school). Round 1 (Online Preliminary) + Round 2 (Online Semifinal) in Zoom breakout rooms, leading to the Grand Physical Final at the SYNC ’26 main event.
 8. **ASPECT — Gaming Competition**: Call of Duty 3 esports showdown. Grades 6–13. Tournament bracket announcements communicated via the official WhatsApp channels.
 
 ---
@@ -143,7 +143,7 @@ To connect live registration data directly into your committee's Google Drive:
 
 ## 6. Official Contact & Coordinator Information
 
-- **Muditha Bro** (Coordinator): `+94 70 264 5851`
+- **Muditha Koralegedara** (Coordinator): `+94 70 264 5851`
 - **Nethun the Editor** (Chief Editor & Technical Lead): `+94 71 490 6145`
 - **Society Email**: `drck.ictsociety@gmail.com`
 - **Direct WhatsApp Coordinator Link**: [https://wa.link/05138r](https://wa.link/05138r)

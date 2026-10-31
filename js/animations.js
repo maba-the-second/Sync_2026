@@ -1,6 +1,6 @@
 /**
  * =========================================================================
- * SYNC ’26 / BTUI’26 — Animations & 3D WebGL Engine
+ * SYNC ’26 — Animations & 3D WebGL Engine
  * Dharmaraja College ICT Society
  * =========================================================================
  */

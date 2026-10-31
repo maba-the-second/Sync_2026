@@ -1,6 +1,6 @@
 /**
  * =========================================================================
- * SYNC ’26 / BTUI’26 — Main Application Coordinator
+ * SYNC ’26 — Main Application Coordinator
  * Dharmaraja College ICT Society
  * =========================================================================
  */

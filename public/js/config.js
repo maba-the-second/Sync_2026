@@ -1,6 +1,6 @@
 /**
  * =========================================================================
- * SYNC ’26 / BTUI’26 — Central Configuration File
+ * SYNC ’26 — Central Configuration File
  * Dharmaraja College ICT Society
  * =========================================================================
  * Note: Do NOT place secret API keys or private credentials in this client file.
@@ -11,7 +11,7 @@
 window.SYNC_CONFIG = {
   // Brand & Event Meta
   eventName: "SYNC ’26",
-  eventSubtitle: "BTUI’26 — Beyond The Digital Frontier",
+  eventSubtitle: "SYNC ’26 — Beyond The Digital Frontier",
   organization: "Dharmaraja College ICT Society",
   year: "2026",
 
@@ -50,7 +50,7 @@ window.SYNC_CONFIG = {
     email: "drck.ictsociety@gmail.com",
     organizers: [
       {
-        name: "MUDITHA BRO",
+        name: "MUDITHA KORALEGEDARA",
         role: "Event Coordinator",
         phone: "+94 70 264 5851",
         phoneRaw: "+94702645851"
